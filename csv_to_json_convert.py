@@ -5,7 +5,6 @@ class CsvToJsonConvert:
 
     def __init__(self,path=None, delimiter=None,encoding =None):
 
-
         if path is None and len(sys.argv) == 1:
             raise Exception("You miss the filepath \N{grinning face}")
 
