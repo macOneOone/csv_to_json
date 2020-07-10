@@ -1,8 +1,7 @@
-import csv
 import sys
+import csv
 
 class CsvToJsonConvert:
-
     def __init__(self,path=None, delimiter=None,encoding =None):
 
         if path is None and len(sys.argv) == 1:
@@ -35,8 +34,9 @@ class CsvToJsonConvert:
         for data in self.get_header():
             return data
     def create_json_file(self):
-        with open(self.newFile,'w') as jt:
-            jt.write(str(self.dataset))
+        if __name__=='__main__':
+            with open(self.newFile,'w') as jt:
+                jt.write(str(self.dataset))
 
     def convert (self):
         #with open(self.path,'r',encoding='utf-8-sig') as sfopen:
