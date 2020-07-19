@@ -13,8 +13,6 @@ The main goal of this module is to create a basic and consistent library that al
 3. Also create a good data extract for our users and in the future to export or send all the data via SOAP.
 
 - [x] convert from csv to json
-- [  ] convert from json to csv
-- [  ] convert from json to xml
-- [  ] convert from xml to json
-
-
+- [ ] convert from json to csv
+- [ ] convert from json to xml
+- [ ] convert from xml to json
